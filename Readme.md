@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
 * Студент: [Anton Churkin](https://up.htmlacademy.ru/adaptive/22/user/1094899).
-* Наставник: `Артик Ман`.
+* Наставник: [Артик Ман](https://htmlacademy.ru/profile/id1445657).
 
 ---
 
