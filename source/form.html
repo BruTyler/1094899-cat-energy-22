@@ -13,12 +13,12 @@
       <a class="header__logo" href="index.html">
         <img class="header__logo" src="./img/logo-mobile.svg" alt="Кэт энерджи" width="33" height="37">
       </a>
-      <p class="header__company">
-        <span class="header__company--accent">Cat</span>
-        Energy
+      <p class="header__company company">
+        <span class="company__main">Cat</span>
+        <span class="company__secondary">Energy</span>
       </p>
       <button class="header__toggle" type="button">
-        <span class="header__toggle--hidden">Открыть меню</span>
+        <span class="visually-hidden">Открыть меню</span>
       </button>
     </div>
     <nav class="header__nav nav">
@@ -42,7 +42,7 @@
 
     <form class="selection__form" action="https://echo.htmlacademy.ru" method="post">
       <section class="selection__pet pet">
-        <h2 class="pet__title pet__title--hidden">Информация о вашем питомце</h2>
+        <h2 class="visually-hidden">Информация о вашем питомце</h2>
         <label class="pet__input-group">
           <span class="pet__label">ИМЯ:*</span>
           <input class="pet__input" type="text" name="name" placeholder="Барсик" required>
@@ -58,7 +58,7 @@
       </section>
 
       <section class="selection__improvement improvement">
-        <h2 class="improvement__title improvement__title--hidden">Цель приобретения корма</h2>
+        <h2 class="visually-hidden">Цель приобретения корма</h2>
         <label class="improvement__input-group">
           <input class="improvement__input" type="radio" name="improvement" checked/>
           <span class="improvement__label">Похудение</span>
@@ -90,8 +90,8 @@
       </section>
 
       <section class="selection__comment comment">
-        <h2 class="customer__title">Комментарий</h2>
-        <label class="comment__label comment__label--hidden" for="comment">Введите комментарий к заказу</label>
+        <h2 class="comment__title">Комментарий</h2>
+        <label class="visually-hidden" for="comment">Введите комментарий к заказу</label>
         <textarea name="comment" id="comment" cols="10" rows="5"
           placeholder="Расскажите обо всех повадках кота"></textarea>
       </section>
@@ -121,11 +121,11 @@
   </main>
 
   <footer class="footer">
-    <p class="footer__company">
-      <span class="footer__company--accent">Cat</span>
-      Energy
+    <p class="footer__company company">
+      <span class="company__main">Cat</span>
+      <span class="company__secondary">Energy</span>
     </p>
-    <div class="page-footer__social social">
+    <div class="footer__social social">
       <ul class="social__list">
         <li class="social__item">
           <a class="social__link social__link--vk" href="https://vk.com/htmlacademy">Вконтакте</a>
