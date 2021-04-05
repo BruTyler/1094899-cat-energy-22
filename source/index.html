@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
 
 <head>
   <meta charset="utf-8">
@@ -11,14 +11,14 @@
   <header class="header">
     <div class="header__wrapper">
       <a class="header__logo" href="index.html">
-        <img class="header__logo" src="./img/logo-mobile.svg" alt="Кэт энерджи" width="33" height="37">
+        <img class="header__logo" src="./img/logo@1x.svg" alt="Кэт энерджи" width="33" height="37">
       </a>
-      <p class="header__company">
-        <span class="header__company--accent">Cat</span>
-        Energy
+      <p class="header__company company">
+        <span class="company__main">Cat</span>
+        <span class="company__secondary">Energy</span>
       </p>
       <button class="header__toggle" type="button">
-        <span class="header__toggle--hidden">Открыть меню</span>
+        <span class="visually-hidden">Открыть меню</span>
       </button>
     </div>
     <nav class="header__nav nav">
@@ -39,12 +39,12 @@
   <section class="promo">
     <h1 class="promo__title">Функциональное питание для котов</h1>
     <p class="promo__description">Занялся собой? Займись котом!</p>
-    <img class="promo__picture" src="./img/can-mobile.png" alt="Банка корма" width="280" height="270">
+    <img class="promo__picture" src="./img/can@1x.png" alt="Банка корма" width="280" height="270">
     <a class="promo__pusher" href="form.html">Подобрать программу</a>
   </section>
 
   <section class="goal">
-    <h2 class="goal__title goal__title--hidden">Цель применения корма</h2>
+    <h2 class="visually-hidden">Цель применения корма</h2>
     <article class="goal__slim slim">
       <h3 class="slim__title">Похудение</h3>
       <p class="slim__desription">
@@ -109,7 +109,7 @@
     </p>
 
     <section class="example__result result">
-      <h3 class="result__title result__title--hidden">Результаты применения корма</h3>
+      <h3 class="visually-hidden">Результаты применения корма</h3>
       <p class="result__item">
         <span class="result__value">5 КГ</span>
         <span class="result__description">Снижение веса</span>
@@ -132,7 +132,7 @@
   </section>
 
   <section class="contacts">
-    <h2 class="contacts__title contacts__title--hidden">Контакты</h2>
+    <h2 class="visually-hidden">Контакты</h2>
     <p class="contacts__welcome">Приглашаем к сотрудничеству дилеров!</p>
     <address class="contacts__address">
       ул. Большая Конюшенная, д. 19/8<br>
@@ -144,11 +144,11 @@
   </section>
 
   <footer class="footer">
-    <p class="footer__company">
-      <span class="footer__company--accent">Cat</span>
-      Energy
+    <p class="footer__company company">
+      <span class="company__main">Cat</span>
+      <span class="company__secondary">Energy</span>
     </p>
-    <div class="page-footer__social social">
+    <div class="footer__social social">
       <ul class="social__list">
         <li class="social__item">
           <a class="social__link social__link--vk" href="https://vk.com/htmlacademy">Вконтакте</a>
@@ -164,7 +164,7 @@
     <div class="footer__copyright copyright">
       <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
       <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
-        <svg class="copyright__logo">
+        <svg class="copyright__logo" width="27" height="34">
           <use xlink:href="#logo-academy"></use>
         </svg>
       </a>
